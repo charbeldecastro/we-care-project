@@ -14,8 +14,20 @@ header {
 .link-header {
   font-weight: 600;
   font-size: 24px;
+  padding: 8px;
   color: #989d9c;
   margin-right: 23px;
+}
+
+/* essa propriedade hover é uma pseudo-classe, ela permite que as caracteristicas abaixo
+só aconteçam quando o mouse estiver em cima dos elementos*/
+.link-header:hover {
+  border-radius: 20.5px;
+  background: #665ae1;
+  border: none;
+  color: white;
+  transition: 0.4s; /* adiciona uma transição*/
+  cursor: pointer; /* muda o cursos do mouse para um dedo apontando */
 }
 
 .button-header {
@@ -28,6 +40,12 @@ header {
   border: none;
   color: white;
   }
+
+.button-header:hover {
+  background: #463e9b;
+  cursor: pointer;
+  transition: 0.4s;
+}
 
   .logo-image {
   width: 568px;
@@ -75,5 +93,11 @@ p {
   background: #adff00;
   border: none;
   box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.button-main:hover {
+  background-color: #74aa00;
+  cursor:pointer;
+  transition: 0.4s;
 }
 
